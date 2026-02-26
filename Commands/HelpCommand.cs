@@ -11,7 +11,7 @@ public class HelpCommand : ICommand
         string text = "Доступные команды:\n" +
                       "/start - приветствие\n" +
                       "/help - помощь\n" +
-                      "/week - расписание на неделю" +
+                      "/week - расписание на неделю\n" +
                       "/teacher [предмет] - узнать, кто ведет предмет\n";
 
         await botClient.SendTextMessageAsync(chatId, text, cancellationToken: ct);
