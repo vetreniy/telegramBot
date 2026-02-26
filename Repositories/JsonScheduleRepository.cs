@@ -17,7 +17,7 @@ public class JsonScheduleRepository : IScheduleRepository
                 {
                    new GroupSchedule
                    {
-                       Group = "11",
+                       Group = "10",
                        Days = new List<DaySchedule>
                        {
                            new DaySchedule { Day = "Понедельник", Lessons = new List<Lesson> {
