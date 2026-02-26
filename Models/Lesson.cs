@@ -1,0 +1,1 @@
+﻿public record Lesson(string Time, string Subject, string Teacher = "");
